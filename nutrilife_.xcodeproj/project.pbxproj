@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C3751D52232461800070BEF /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3751D42232461800070BEF /* EditProfileVC.swift */; };
+		9C83DD2622241B2800B3908E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83DD2522241B2800B3908E /* ViewController.swift */; };
+		9C83DD2922241B2800B3908E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C83DD2722241B2800B3908E /* Main.storyboard */; };
+		9C83DD2B22241B2900B3908E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C83DD2A22241B2900B3908E /* Assets.xcassets */; };
+		9C83DD2E22241B2900B3908E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C83DD2C22241B2900B3908E /* LaunchScreen.storyboard */; };
+		9C8C0F8C2231120400E84897 /* CertificateDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C0F8B2231120400E84897 /* CertificateDetailVC.swift */; };
+		9C90A58C223669FE00B9F0F3 /* NutritionAssessmentFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C90A58B223669FE00B9F0F3 /* NutritionAssessmentFormVC.swift */; };
+		9C9BB4FD222511A700380937 /* LanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB4FC222511A700380937 /* LanguageVC.swift */; };
+		9C9BB4FF222511FE00380937 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB4FE222511FE00380937 /* LoginVC.swift */; };
+		9C9BB5012225121D00380937 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5002225121D00380937 /* ResetPasswordVC.swift */; };
+		9C9BB5032225126A00380937 /* IdentificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5022225126A00380937 /* IdentificationVC.swift */; };
+		9C9BB5052225129000380937 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5042225129000380937 /* RegisterVC.swift */; };
+		9C9BB507222512A400380937 /* EmailVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB506222512A400380937 /* EmailVerificationVC.swift */; };
+		9C9BB509222512BB00380937 /* AboutNutrilifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB508222512BB00380937 /* AboutNutrilifeVC.swift */; };
+		9C9BB50B222512E100380937 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB50A222512E100380937 /* ContactUsVC.swift */; };
+		9C9BB50D222512F900380937 /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB50C222512F900380937 /* MessageVC.swift */; };
+		9C9BB50F2225131500380937 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB50E2225131500380937 /* NotificationVC.swift */; };
+		9C9BB5112225137900380937 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5102225137900380937 /* ChangePasswordVC.swift */; };
+		9C9BB5132225138D00380937 /* VideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5122225138D00380937 /* VideosVC.swift */; };
+		9C9BB5152225139D00380937 /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5142225139C00380937 /* BooksVC.swift */; };
+		9C9BB517222513B400380937 /* CertificateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB516222513B400380937 /* CertificateVC.swift */; };
+		9C9BB519222513D000380937 /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB518222513D000380937 /* ReviewsVC.swift */; };
+		9C9BB51B222513E400380937 /* VideoDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB51A222513E300380937 /* VideoDetailsVC.swift */; };
+		9C9BB51D222513F600380937 /* BookDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB51C222513F500380937 /* BookDetailsVC.swift */; };
+		9C9BB51F222515A200380937 /* DoctorHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB51E222515A200380937 /* DoctorHomeVC.swift */; };
+		9C9BB521222515BD00380937 /* MyServicesDoctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB520222515BD00380937 /* MyServicesDoctorVC.swift */; };
+		9C9BB5232225164100380937 /* MyPetientDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5222225163F00380937 /* MyPetientDetailsVC.swift */; };
+		9C9BB525222516CF00380937 /* MNTForm1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB524222516CC00380937 /* MNTForm1VC.swift */; };
+		9C9BB527222516D800380937 /* MNTForm2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB526222516D600380937 /* MNTForm2VC.swift */; };
+		9C9BB529222516E600380937 /* AddGoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB528222516E300380937 /* AddGoalsVC.swift */; };
+		9C9BB52B222516FA00380937 /* MyWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB52A222516FA00380937 /* MyWalletVC.swift */; };
+		9C9BB52D2225170A00380937 /* AddVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB52C2225170A00380937 /* AddVideoVC.swift */; };
+		9C9BB52F2225172000380937 /* AddCertificateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB52E2225172000380937 /* AddCertificateVC.swift */; };
+		9C9BB5312225172B00380937 /* AddBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5302225172B00380937 /* AddBookVC.swift */; };
+		9C9BB5332225173600380937 /* AddPackageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5322225173600380937 /* AddPackageVC.swift */; };
+		9C9BB5352225173E00380937 /* AddPackageDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5342225173E00380937 /* AddPackageDetailsVC.swift */; };
+		9C9BB5372225175000380937 /* DoctorProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5362225175000380937 /* DoctorProfileVC.swift */; };
+		9C9BB5392225193A00380937 /* AddPaymentRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5382225193900380937 /* AddPaymentRequestVC.swift */; };
+		9C9BB53B2225194800380937 /* PackageDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB53A2225194800380937 /* PackageDetailsVC.swift */; };
+		9C9BB53D22251B1300380937 /* colCellDoctorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB53C22251B1300380937 /* colCellDoctorHome.swift */; };
+		9C9BB53F22251B7900380937 /* tblCellAddPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB53E22251B7900380937 /* tblCellAddPackage.swift */; };
+		9C9BB54122251B8100380937 /* tblCellBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54022251B8100380937 /* tblCellBooks.swift */; };
+		9C9BB54322251B8700380937 /* tblCellCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54222251B8700380937 /* tblCellCertificate.swift */; };
+		9C9BB54522251B8E00380937 /* tblCellCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54422251B8E00380937 /* tblCellCurrency.swift */; };
+		9C9BB54722251B9500380937 /* tblCellDoctorPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54622251B9500380937 /* tblCellDoctorPackages.swift */; };
+		9C9BB54922251B9E00380937 /* tblCellDrawerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54822251B9D00380937 /* tblCellDrawerMenu.swift */; };
+		9C9BB54B22251BA600380937 /* tblCellGoalsAndPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54A22251BA600380937 /* tblCellGoalsAndPayment.swift */; };
+		9C9BB54D22251BCF00380937 /* tblCellMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54C22251BCF00380937 /* tblCellMessages.swift */; };
+		9C9BB54F22251BD700380937 /* tblCellMyDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB54E22251BD700380937 /* tblCellMyDoctor.swift */; };
+		9C9BB55122251BF600380937 /* tblCellMyServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55022251BF600380937 /* tblCellMyServices.swift */; };
+		9C9BB55322251BFC00380937 /* tblCellMyServicesDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55222251BFC00380937 /* tblCellMyServicesDoctor.swift */; };
+		9C9BB55522251C0300380937 /* tblCellNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55422251C0200380937 /* tblCellNotification.swift */; };
+		9C9BB55722251C0800380937 /* tblCellPaymentAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55622251C0800380937 /* tblCellPaymentAction.swift */; };
+		9C9BB55922251C0E00380937 /* tblCellPaymentCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55822251C0E00380937 /* tblCellPaymentCurrency.swift */; };
+		9C9BB55B22251C1300380937 /* tblCellPaymentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55A22251C1300380937 /* tblCellPaymentRequest.swift */; };
+		9C9BB55D22251C3400380937 /* tblCellReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55C22251C3400380937 /* tblCellReviews.swift */; };
+		9C9BB55F22251C3A00380937 /* tblCellSearchDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB55E22251C3A00380937 /* tblCellSearchDoctor.swift */; };
+		9C9BB56122251C4000380937 /* tblCellServicesPatientSIde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56022251C4000380937 /* tblCellServicesPatientSIde.swift */; };
+		9C9BB56322251C4700380937 /* tblCellVIdeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56222251C4700380937 /* tblCellVIdeo.swift */; };
+		9C9BB56522251C4B00380937 /* tblCellWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56422251C4B00380937 /* tblCellWallet.swift */; };
+		9C9BB56722251CED00380937 /* MNTFormDatailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56622251CED00380937 /* MNTFormDatailsVC.swift */; };
+		9C9BB56922251CF800380937 /* tblCellLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56822251CF800380937 /* tblCellLanguages.swift */; };
+		9C9BB56B22251D0000380937 /* tblCellLocationSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56A22251D0000380937 /* tblCellLocationSearch.swift */; };
+		9C9BB56D222539C100380937 /* tblCellRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56C222539C100380937 /* tblCellRole.swift */; };
+		9C9BB56F222539D500380937 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB56E222539D500380937 /* Constants.swift */; };
+		9C9BB57122253D1600380937 /* PaymentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB57022253D1600380937 /* PaymentDetailsVC.swift */; };
+		9C9BB57322253E0300380937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB57222253E0200380937 /* AppDelegate.swift */; };
+		9C9BB5752225591100380937 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5742225591100380937 /* HomeVC.swift */; };
+		9C9BB5772225594B00380937 /* BMIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5762225594B00380937 /* BMIVC.swift */; };
+		9C9BB5792225596100380937 /* SearchDoctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB5782225596100380937 /* SearchDoctorVC.swift */; };
+		9C9BB57B2225596C00380937 /* MyDoctorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB57A2225596C00380937 /* MyDoctorVC.swift */; };
+		9C9BB57D2225598D00380937 /* DoctorDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB57C2225598D00380937 /* DoctorDetailsVC.swift */; };
+		9C9BB57F222559A400380937 /* MyServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB57E222559A400380937 /* MyServicesVC.swift */; };
+		9C9BB581222559AD00380937 /* MyDoctorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB580222559AD00380937 /* MyDoctorDetails.swift */; };
+		9C9BB58522255DD400380937 /* ServicesPatientSideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB58422255DD400380937 /* ServicesPatientSideVC.swift */; };
+		9C9BB58722255DF600380937 /* MyDoctorSubDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB58622255DF600380937 /* MyDoctorSubDetailsVC.swift */; };
+		9C9BB58922255E0100380937 /* GoalsAndPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB58822255E0100380937 /* GoalsAndPaymentVC.swift */; };
+		9C9BB58B2225626C00380937 /* ServiceDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB58A2225626C00380937 /* ServiceDetailsVC.swift */; };
+		9C9BB58D2225628F00380937 /* GoalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB58C2225628E00380937 /* GoalDetailsVC.swift */; };
+		9C9BB58F2225629B00380937 /* PatientProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9BB58E2225629A00380937 /* PatientProfileVC.swift */; };
+		9CA4354C2227C86200C3AEFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CA4354B2227C86200C3AEFB /* GoogleService-Info.plist */; };
+		9CC4519E222A55770027039E /* CertificateRegisteredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4519D222A55770027039E /* CertificateRegisteredVC.swift */; };
+		9CF2300B223AF07D00B23D0E /* editProfilePatientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF2300A223AF07D00B23D0E /* editProfilePatientVC.swift */; };
+		D7F54D32935C41E00CFE8DED /* Pods_nutrilife_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1589B12FD512AE2ABDF1821 /* Pods_nutrilife_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2784A7D40703A74DD84D78BF /* Pods-nutrilife_.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutrilife_.debug.xcconfig"; path = "Target Support Files/Pods-nutrilife_/Pods-nutrilife_.debug.xcconfig"; sourceTree = "<group>"; };
+		9C3751D42232461800070BEF /* EditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		9C83DD2022241B2800B3908E /* nutrilife_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nutrilife_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C83DD2522241B2800B3908E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C83DD2822241B2800B3908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C83DD2A22241B2900B3908E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C83DD2D22241B2900B3908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C83DD2F22241B2900B3908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8C0F8B2231120400E84897 /* CertificateDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateDetailVC.swift; sourceTree = "<group>"; };
+		9C90A58B223669FE00B9F0F3 /* NutritionAssessmentFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAssessmentFormVC.swift; sourceTree = "<group>"; };
+		9C9BB4FC222511A700380937 /* LanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageVC.swift; sourceTree = "<group>"; };
+		9C9BB4FE222511FE00380937 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9C9BB5002225121D00380937 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		9C9BB5022225126A00380937 /* IdentificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentificationVC.swift; sourceTree = "<group>"; };
+		9C9BB5042225129000380937 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		9C9BB506222512A400380937 /* EmailVerificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailVerificationVC.swift; sourceTree = "<group>"; };
+		9C9BB508222512BB00380937 /* AboutNutrilifeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutNutrilifeVC.swift; sourceTree = "<group>"; };
+		9C9BB50A222512E100380937 /* ContactUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		9C9BB50C222512F900380937 /* MessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		9C9BB50E2225131500380937 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		9C9BB5102225137900380937 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		9C9BB5122225138D00380937 /* VideosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosVC.swift; sourceTree = "<group>"; };
+		9C9BB5142225139C00380937 /* BooksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksVC.swift; sourceTree = "<group>"; };
+		9C9BB516222513B400380937 /* CertificateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateVC.swift; sourceTree = "<group>"; };
+		9C9BB518222513D000380937 /* ReviewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		9C9BB51A222513E300380937 /* VideoDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB51C222513F500380937 /* BookDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB51E222515A200380937 /* DoctorHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorHomeVC.swift; sourceTree = "<group>"; };
+		9C9BB520222515BD00380937 /* MyServicesDoctorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyServicesDoctorVC.swift; sourceTree = "<group>"; };
+		9C9BB5222225163F00380937 /* MyPetientDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPetientDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB524222516CC00380937 /* MNTForm1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNTForm1VC.swift; sourceTree = "<group>"; };
+		9C9BB526222516D600380937 /* MNTForm2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNTForm2VC.swift; sourceTree = "<group>"; };
+		9C9BB528222516E300380937 /* AddGoalsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGoalsVC.swift; sourceTree = "<group>"; };
+		9C9BB52A222516FA00380937 /* MyWalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWalletVC.swift; sourceTree = "<group>"; };
+		9C9BB52C2225170A00380937 /* AddVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVideoVC.swift; sourceTree = "<group>"; };
+		9C9BB52E2225172000380937 /* AddCertificateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCertificateVC.swift; sourceTree = "<group>"; };
+		9C9BB5302225172B00380937 /* AddBookVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookVC.swift; sourceTree = "<group>"; };
+		9C9BB5322225173600380937 /* AddPackageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPackageVC.swift; sourceTree = "<group>"; };
+		9C9BB5342225173E00380937 /* AddPackageDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPackageDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB5362225175000380937 /* DoctorProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorProfileVC.swift; sourceTree = "<group>"; };
+		9C9BB5382225193900380937 /* AddPaymentRequestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPaymentRequestVC.swift; sourceTree = "<group>"; };
+		9C9BB53A2225194800380937 /* PackageDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB53C22251B1300380937 /* colCellDoctorHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colCellDoctorHome.swift; sourceTree = "<group>"; };
+		9C9BB53E22251B7900380937 /* tblCellAddPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellAddPackage.swift; sourceTree = "<group>"; };
+		9C9BB54022251B8100380937 /* tblCellBooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellBooks.swift; sourceTree = "<group>"; };
+		9C9BB54222251B8700380937 /* tblCellCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellCertificate.swift; sourceTree = "<group>"; };
+		9C9BB54422251B8E00380937 /* tblCellCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellCurrency.swift; sourceTree = "<group>"; };
+		9C9BB54622251B9500380937 /* tblCellDoctorPackages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellDoctorPackages.swift; sourceTree = "<group>"; };
+		9C9BB54822251B9D00380937 /* tblCellDrawerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellDrawerMenu.swift; sourceTree = "<group>"; };
+		9C9BB54A22251BA600380937 /* tblCellGoalsAndPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellGoalsAndPayment.swift; sourceTree = "<group>"; };
+		9C9BB54C22251BCF00380937 /* tblCellMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellMessages.swift; sourceTree = "<group>"; };
+		9C9BB54E22251BD700380937 /* tblCellMyDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellMyDoctor.swift; sourceTree = "<group>"; };
+		9C9BB55022251BF600380937 /* tblCellMyServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellMyServices.swift; sourceTree = "<group>"; };
+		9C9BB55222251BFC00380937 /* tblCellMyServicesDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellMyServicesDoctor.swift; sourceTree = "<group>"; };
+		9C9BB55422251C0200380937 /* tblCellNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellNotification.swift; sourceTree = "<group>"; };
+		9C9BB55622251C0800380937 /* tblCellPaymentAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellPaymentAction.swift; sourceTree = "<group>"; };
+		9C9BB55822251C0E00380937 /* tblCellPaymentCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellPaymentCurrency.swift; sourceTree = "<group>"; };
+		9C9BB55A22251C1300380937 /* tblCellPaymentRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellPaymentRequest.swift; sourceTree = "<group>"; };
+		9C9BB55C22251C3400380937 /* tblCellReviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellReviews.swift; sourceTree = "<group>"; };
+		9C9BB55E22251C3A00380937 /* tblCellSearchDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellSearchDoctor.swift; sourceTree = "<group>"; };
+		9C9BB56022251C4000380937 /* tblCellServicesPatientSIde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellServicesPatientSIde.swift; sourceTree = "<group>"; };
+		9C9BB56222251C4700380937 /* tblCellVIdeo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellVIdeo.swift; sourceTree = "<group>"; };
+		9C9BB56422251C4B00380937 /* tblCellWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellWallet.swift; sourceTree = "<group>"; };
+		9C9BB56622251CED00380937 /* MNTFormDatailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNTFormDatailsVC.swift; sourceTree = "<group>"; };
+		9C9BB56822251CF800380937 /* tblCellLanguages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellLanguages.swift; sourceTree = "<group>"; };
+		9C9BB56A22251D0000380937 /* tblCellLocationSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellLocationSearch.swift; sourceTree = "<group>"; };
+		9C9BB56C222539C100380937 /* tblCellRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tblCellRole.swift; sourceTree = "<group>"; };
+		9C9BB56E222539D500380937 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C9BB57022253D1600380937 /* PaymentDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB57222253E0200380937 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C9BB5742225591100380937 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9C9BB5762225594B00380937 /* BMIVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMIVC.swift; sourceTree = "<group>"; };
+		9C9BB5782225596100380937 /* SearchDoctorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDoctorVC.swift; sourceTree = "<group>"; };
+		9C9BB57A2225596C00380937 /* MyDoctorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDoctorVC.swift; sourceTree = "<group>"; };
+		9C9BB57C2225598D00380937 /* DoctorDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB57E222559A400380937 /* MyServicesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyServicesVC.swift; sourceTree = "<group>"; };
+		9C9BB580222559AD00380937 /* MyDoctorDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDoctorDetails.swift; sourceTree = "<group>"; };
+		9C9BB58422255DD400380937 /* ServicesPatientSideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesPatientSideVC.swift; sourceTree = "<group>"; };
+		9C9BB58622255DF600380937 /* MyDoctorSubDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDoctorSubDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB58822255E0100380937 /* GoalsAndPaymentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsAndPaymentVC.swift; sourceTree = "<group>"; };
+		9C9BB58A2225626C00380937 /* ServiceDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB58C2225628E00380937 /* GoalDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalDetailsVC.swift; sourceTree = "<group>"; };
+		9C9BB58E2225629A00380937 /* PatientProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientProfileVC.swift; sourceTree = "<group>"; };
+		9CA4354B2227C86200C3AEFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9CA4354D2227C8D600C3AEFB /* nutrilife_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nutrilife_.entitlements; sourceTree = "<group>"; };
+		9CC4519D222A55770027039E /* CertificateRegisteredVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateRegisteredVC.swift; sourceTree = "<group>"; };
+		9CF2300A223AF07D00B23D0E /* editProfilePatientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfilePatientVC.swift; sourceTree = "<group>"; };
+		E1589B12FD512AE2ABDF1821 /* Pods_nutrilife_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nutrilife_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0AB1FFA0832C9539BE29E5 /* Pods-nutrilife_.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nutrilife_.release.xcconfig"; path = "Target Support Files/Pods-nutrilife_/Pods-nutrilife_.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C83DD1D22241B2800B3908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F54D32935C41E00CFE8DED /* Pods_nutrilife_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F770AC289A962FEE098A27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1589B12FD512AE2ABDF1821 /* Pods_nutrilife_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C83DD1722241B2800B3908E = {
+			isa = PBXGroup;
+			children = (
+				9C83DD2222241B2800B3908E /* nutrilife_ */,
+				9C83DD2122241B2800B3908E /* Products */,
+				DDAE682B369BF97EB3164898 /* Pods */,
+				09F770AC289A962FEE098A27 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C83DD2122241B2800B3908E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C83DD2022241B2800B3908E /* nutrilife_.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C83DD2222241B2800B3908E /* nutrilife_ */ = {
+			isa = PBXGroup;
+			children = (
+				9CA4354D2227C8D600C3AEFB /* nutrilife_.entitlements */,
+				9C9BB57222253E0200380937 /* AppDelegate.swift */,
+				9C83DD2522241B2800B3908E /* ViewController.swift */,
+				9C83DD2722241B2800B3908E /* Main.storyboard */,
+				9CF2300A223AF07D00B23D0E /* editProfilePatientVC.swift */,
+				9C90A58B223669FE00B9F0F3 /* NutritionAssessmentFormVC.swift */,
+				9C8C0F8B2231120400E84897 /* CertificateDetailVC.swift */,
+				9CC4519D222A55770027039E /* CertificateRegisteredVC.swift */,
+				9C9BB4FC222511A700380937 /* LanguageVC.swift */,
+				9C9BB4FE222511FE00380937 /* LoginVC.swift */,
+				9C9BB5002225121D00380937 /* ResetPasswordVC.swift */,
+				9C9BB5022225126A00380937 /* IdentificationVC.swift */,
+				9C9BB5042225129000380937 /* RegisterVC.swift */,
+				9C9BB506222512A400380937 /* EmailVerificationVC.swift */,
+				9C9BB508222512BB00380937 /* AboutNutrilifeVC.swift */,
+				9C9BB50A222512E100380937 /* ContactUsVC.swift */,
+				9C9BB50C222512F900380937 /* MessageVC.swift */,
+				9C9BB50E2225131500380937 /* NotificationVC.swift */,
+				9C9BB5102225137900380937 /* ChangePasswordVC.swift */,
+				9C9BB5122225138D00380937 /* VideosVC.swift */,
+				9C9BB5142225139C00380937 /* BooksVC.swift */,
+				9C9BB516222513B400380937 /* CertificateVC.swift */,
+				9C9BB51A222513E300380937 /* VideoDetailsVC.swift */,
+				9C9BB51C222513F500380937 /* BookDetailsVC.swift */,
+				9C9BB518222513D000380937 /* ReviewsVC.swift */,
+				9C9BB51E222515A200380937 /* DoctorHomeVC.swift */,
+				9C9BB520222515BD00380937 /* MyServicesDoctorVC.swift */,
+				9C9BB5222225163F00380937 /* MyPetientDetailsVC.swift */,
+				9C9BB524222516CC00380937 /* MNTForm1VC.swift */,
+				9C9BB526222516D600380937 /* MNTForm2VC.swift */,
+				9C9BB528222516E300380937 /* AddGoalsVC.swift */,
+				9C9BB52A222516FA00380937 /* MyWalletVC.swift */,
+				9C9BB52C2225170A00380937 /* AddVideoVC.swift */,
+				9C9BB52E2225172000380937 /* AddCertificateVC.swift */,
+				9C9BB5302225172B00380937 /* AddBookVC.swift */,
+				9C9BB5322225173600380937 /* AddPackageVC.swift */,
+				9C9BB5342225173E00380937 /* AddPackageDetailsVC.swift */,
+				9C9BB5362225175000380937 /* DoctorProfileVC.swift */,
+				9C9BB5382225193900380937 /* AddPaymentRequestVC.swift */,
+				9C9BB53A2225194800380937 /* PackageDetailsVC.swift */,
+				9C9BB53C22251B1300380937 /* colCellDoctorHome.swift */,
+				9C9BB53E22251B7900380937 /* tblCellAddPackage.swift */,
+				9C9BB54222251B8700380937 /* tblCellCertificate.swift */,
+				9C9BB54022251B8100380937 /* tblCellBooks.swift */,
+				9C9BB54422251B8E00380937 /* tblCellCurrency.swift */,
+				9C9BB54622251B9500380937 /* tblCellDoctorPackages.swift */,
+				9C9BB54822251B9D00380937 /* tblCellDrawerMenu.swift */,
+				9C9BB54A22251BA600380937 /* tblCellGoalsAndPayment.swift */,
+				9C9BB54C22251BCF00380937 /* tblCellMessages.swift */,
+				9C9BB54E22251BD700380937 /* tblCellMyDoctor.swift */,
+				9C9BB55022251BF600380937 /* tblCellMyServices.swift */,
+				9C9BB55222251BFC00380937 /* tblCellMyServicesDoctor.swift */,
+				9C9BB55422251C0200380937 /* tblCellNotification.swift */,
+				9C9BB55622251C0800380937 /* tblCellPaymentAction.swift */,
+				9C9BB55822251C0E00380937 /* tblCellPaymentCurrency.swift */,
+				9C9BB55A22251C1300380937 /* tblCellPaymentRequest.swift */,
+				9C9BB55C22251C3400380937 /* tblCellReviews.swift */,
+				9C9BB55E22251C3A00380937 /* tblCellSearchDoctor.swift */,
+				9C9BB56022251C4000380937 /* tblCellServicesPatientSIde.swift */,
+				9C9BB56222251C4700380937 /* tblCellVIdeo.swift */,
+				9C9BB56422251C4B00380937 /* tblCellWallet.swift */,
+				9C9BB56622251CED00380937 /* MNTFormDatailsVC.swift */,
+				9C9BB56822251CF800380937 /* tblCellLanguages.swift */,
+				9C9BB56A22251D0000380937 /* tblCellLocationSearch.swift */,
+				9C9BB56C222539C100380937 /* tblCellRole.swift */,
+				9C9BB56E222539D500380937 /* Constants.swift */,
+				9C9BB57022253D1600380937 /* PaymentDetailsVC.swift */,
+				9C9BB5742225591100380937 /* HomeVC.swift */,
+				9C9BB5762225594B00380937 /* BMIVC.swift */,
+				9C9BB5782225596100380937 /* SearchDoctorVC.swift */,
+				9C9BB57A2225596C00380937 /* MyDoctorVC.swift */,
+				9C9BB57C2225598D00380937 /* DoctorDetailsVC.swift */,
+				9C9BB57E222559A400380937 /* MyServicesVC.swift */,
+				9C9BB580222559AD00380937 /* MyDoctorDetails.swift */,
+				9C9BB58422255DD400380937 /* ServicesPatientSideVC.swift */,
+				9C9BB58622255DF600380937 /* MyDoctorSubDetailsVC.swift */,
+				9C9BB58822255E0100380937 /* GoalsAndPaymentVC.swift */,
+				9C9BB58A2225626C00380937 /* ServiceDetailsVC.swift */,
+				9C9BB58C2225628E00380937 /* GoalDetailsVC.swift */,
+				9C9BB58E2225629A00380937 /* PatientProfileVC.swift */,
+				9CA4354B2227C86200C3AEFB /* GoogleService-Info.plist */,
+				9C83DD2A22241B2900B3908E /* Assets.xcassets */,
+				9C83DD2C22241B2900B3908E /* LaunchScreen.storyboard */,
+				9C83DD2F22241B2900B3908E /* Info.plist */,
+				9C3751D42232461800070BEF /* EditProfileVC.swift */,
+			);
+			path = nutrilife_;
+			sourceTree = "<group>";
+		};
+		DDAE682B369BF97EB3164898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2784A7D40703A74DD84D78BF /* Pods-nutrilife_.debug.xcconfig */,
+				EA0AB1FFA0832C9539BE29E5 /* Pods-nutrilife_.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C83DD1F22241B2800B3908E /* nutrilife_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C83DD3222241B2900B3908E /* Build configuration list for PBXNativeTarget "nutrilife_" */;
+			buildPhases = (
+				4E71C3E4A6434AC46DC66241 /* [CP] Check Pods Manifest.lock */,
+				9C83DD1C22241B2800B3908E /* Sources */,
+				9C83DD1D22241B2800B3908E /* Frameworks */,
+				9C83DD1E22241B2800B3908E /* Resources */,
+				FA263D0685BF5F13FA92EF30 /* [CP] Embed Pods Frameworks */,
+				1AA7D5BD472E0BA83EEDBADF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nutrilife_;
+			productName = nutrilife_;
+			productReference = 9C83DD2022241B2800B3908E /* nutrilife_.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C83DD1822241B2800B3908E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "vidhi jayswal";
+				TargetAttributes = {
+					9C83DD1F22241B2800B3908E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9C83DD1B22241B2800B3908E /* Build configuration list for PBXProject "nutrilife_" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C83DD1722241B2800B3908E;
+			productRefGroup = 9C83DD2122241B2800B3908E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C83DD1F22241B2800B3908E /* nutrilife_ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C83DD1E22241B2800B3908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C83DD2E22241B2900B3908E /* LaunchScreen.storyboard in Resources */,
+				9CA4354C2227C86200C3AEFB /* GoogleService-Info.plist in Resources */,
+				9C83DD2B22241B2900B3908E /* Assets.xcassets in Resources */,
+				9C83DD2922241B2800B3908E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AA7D5BD472E0BA83EEDBADF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nutrilife_/Pods-nutrilife_-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nutrilife_/Pods-nutrilife_-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E71C3E4A6434AC46DC66241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nutrilife_-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA263D0685BF5F13FA92EF30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nutrilife_/Pods-nutrilife_-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RichEditorView/RichEditorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RichEditorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nutrilife_/Pods-nutrilife_-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C83DD1C22241B2800B3908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9BB57D2225598D00380937 /* DoctorDetailsVC.swift in Sources */,
+				9C9BB56322251C4700380937 /* tblCellVIdeo.swift in Sources */,
+				9C9BB509222512BB00380937 /* AboutNutrilifeVC.swift in Sources */,
+				9C9BB5772225594B00380937 /* BMIVC.swift in Sources */,
+				9C9BB527222516D800380937 /* MNTForm2VC.swift in Sources */,
+				9C9BB55522251C0300380937 /* tblCellNotification.swift in Sources */,
+				9C9BB54722251B9500380937 /* tblCellDoctorPackages.swift in Sources */,
+				9C9BB529222516E600380937 /* AddGoalsVC.swift in Sources */,
+				9C9BB56922251CF800380937 /* tblCellLanguages.swift in Sources */,
+				9C9BB54122251B8100380937 /* tblCellBooks.swift in Sources */,
+				9C9BB5792225596100380937 /* SearchDoctorVC.swift in Sources */,
+				9CF2300B223AF07D00B23D0E /* editProfilePatientVC.swift in Sources */,
+				9C90A58C223669FE00B9F0F3 /* NutritionAssessmentFormVC.swift in Sources */,
+				9C9BB56122251C4000380937 /* tblCellServicesPatientSIde.swift in Sources */,
+				9C9BB51B222513E400380937 /* VideoDetailsVC.swift in Sources */,
+				9C9BB51F222515A200380937 /* DoctorHomeVC.swift in Sources */,
+				9C9BB5372225175000380937 /* DoctorProfileVC.swift in Sources */,
+				9C9BB57322253E0300380937 /* AppDelegate.swift in Sources */,
+				9C9BB507222512A400380937 /* EmailVerificationVC.swift in Sources */,
+				9C9BB54322251B8700380937 /* tblCellCertificate.swift in Sources */,
+				9C9BB5752225591100380937 /* HomeVC.swift in Sources */,
+				9C9BB581222559AD00380937 /* MyDoctorDetails.swift in Sources */,
+				9C83DD2622241B2800B3908E /* ViewController.swift in Sources */,
+				9C9BB5012225121D00380937 /* ResetPasswordVC.swift in Sources */,
+				9C9BB55922251C0E00380937 /* tblCellPaymentCurrency.swift in Sources */,
+				9C9BB54D22251BCF00380937 /* tblCellMessages.swift in Sources */,
+				9C9BB5032225126A00380937 /* IdentificationVC.swift in Sources */,
+				9C9BB5392225193A00380937 /* AddPaymentRequestVC.swift in Sources */,
+				9C9BB58922255E0100380937 /* GoalsAndPaymentVC.swift in Sources */,
+				9C9BB54F22251BD700380937 /* tblCellMyDoctor.swift in Sources */,
+				9C9BB53D22251B1300380937 /* colCellDoctorHome.swift in Sources */,
+				9C9BB5312225172B00380937 /* AddBookVC.swift in Sources */,
+				9C9BB58522255DD400380937 /* ServicesPatientSideVC.swift in Sources */,
+				9C9BB55722251C0800380937 /* tblCellPaymentAction.swift in Sources */,
+				9C3751D52232461800070BEF /* EditProfileVC.swift in Sources */,
+				9C9BB52B222516FA00380937 /* MyWalletVC.swift in Sources */,
+				9C9BB57B2225596C00380937 /* MyDoctorVC.swift in Sources */,
+				9C9BB56522251C4B00380937 /* tblCellWallet.swift in Sources */,
+				9C9BB5112225137900380937 /* ChangePasswordVC.swift in Sources */,
+				9C9BB57F222559A400380937 /* MyServicesVC.swift in Sources */,
+				9C9BB54B22251BA600380937 /* tblCellGoalsAndPayment.swift in Sources */,
+				9C9BB54922251B9E00380937 /* tblCellDrawerMenu.swift in Sources */,
+				9C9BB53B2225194800380937 /* PackageDetailsVC.swift in Sources */,
+				9C9BB57122253D1600380937 /* PaymentDetailsVC.swift in Sources */,
+				9C9BB525222516CF00380937 /* MNTForm1VC.swift in Sources */,
+				9C9BB55F22251C3A00380937 /* tblCellSearchDoctor.swift in Sources */,
+				9C9BB56722251CED00380937 /* MNTFormDatailsVC.swift in Sources */,
+				9C9BB58F2225629B00380937 /* PatientProfileVC.swift in Sources */,
+				9C9BB52D2225170A00380937 /* AddVideoVC.swift in Sources */,
+				9C9BB5132225138D00380937 /* VideosVC.swift in Sources */,
+				9C9BB56F222539D500380937 /* Constants.swift in Sources */,
+				9C9BB56B22251D0000380937 /* tblCellLocationSearch.swift in Sources */,
+				9C9BB55322251BFC00380937 /* tblCellMyServicesDoctor.swift in Sources */,
+				9C9BB58B2225626C00380937 /* ServiceDetailsVC.swift in Sources */,
+				9C9BB519222513D000380937 /* ReviewsVC.swift in Sources */,
+				9C9BB5232225164100380937 /* MyPetientDetailsVC.swift in Sources */,
+				9C9BB55B22251C1300380937 /* tblCellPaymentRequest.swift in Sources */,
+				9C9BB5052225129000380937 /* RegisterVC.swift in Sources */,
+				9C8C0F8C2231120400E84897 /* CertificateDetailVC.swift in Sources */,
+				9C9BB55122251BF600380937 /* tblCellMyServices.swift in Sources */,
+				9C9BB52F2225172000380937 /* AddCertificateVC.swift in Sources */,
+				9C9BB50F2225131500380937 /* NotificationVC.swift in Sources */,
+				9C9BB521222515BD00380937 /* MyServicesDoctorVC.swift in Sources */,
+				9CC4519E222A55770027039E /* CertificateRegisteredVC.swift in Sources */,
+				9C9BB51D222513F600380937 /* BookDetailsVC.swift in Sources */,
+				9C9BB517222513B400380937 /* CertificateVC.swift in Sources */,
+				9C9BB54522251B8E00380937 /* tblCellCurrency.swift in Sources */,
+				9C9BB58722255DF600380937 /* MyDoctorSubDetailsVC.swift in Sources */,
+				9C9BB56D222539C100380937 /* tblCellRole.swift in Sources */,
+				9C9BB4FF222511FE00380937 /* LoginVC.swift in Sources */,
+				9C9BB58D2225628F00380937 /* GoalDetailsVC.swift in Sources */,
+				9C9BB4FD222511A700380937 /* LanguageVC.swift in Sources */,
+				9C9BB50D222512F900380937 /* MessageVC.swift in Sources */,
+				9C9BB5352225173E00380937 /* AddPackageDetailsVC.swift in Sources */,
+				9C9BB5152225139D00380937 /* BooksVC.swift in Sources */,
+				9C9BB53F22251B7900380937 /* tblCellAddPackage.swift in Sources */,
+				9C9BB50B222512E100380937 /* ContactUsVC.swift in Sources */,
+				9C9BB55D22251C3400380937 /* tblCellReviews.swift in Sources */,
+				9C9BB5332225173600380937 /* AddPackageVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C83DD2722241B2800B3908E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C83DD2822241B2800B3908E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C83DD2C22241B2900B3908E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C83DD2D22241B2900B3908E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C83DD3022241B2900B3908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C83DD3122241B2900B3908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C83DD3322241B2900B3908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2784A7D40703A74DD84D78BF /* Pods-nutrilife_.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nutrilife_/nutrilife_.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76N3H52224;
+				INFOPLIST_FILE = nutrilife_/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qrioustech.Nutrilife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C83DD3422241B2900B3908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0AB1FFA0832C9539BE29E5 /* Pods-nutrilife_.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = nutrilife_/nutrilife_.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76N3H52224;
+				INFOPLIST_FILE = nutrilife_/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qrioustech.Nutrilife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C83DD1B22241B2800B3908E /* Build configuration list for PBXProject "nutrilife_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C83DD3022241B2900B3908E /* Debug */,
+				9C83DD3122241B2900B3908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C83DD3222241B2900B3908E /* Build configuration list for PBXNativeTarget "nutrilife_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C83DD3322241B2900B3908E /* Debug */,
+				9C83DD3422241B2900B3908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C83DD1822241B2800B3908E /* Project object */;
+}
